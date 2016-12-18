@@ -1,0 +1,106 @@
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after { content: ""; content: none; }
+
+ins { background-color: #ff9; color: #000; text-decoration: none; }
+
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+
+del { text-decoration: line-through; }
+
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+
+input, select { vertical-align: middle; }
+/** end of css reset **/
+
+/** Begin CV page style **/
+
+
+.education {
+background-color: #c3f1e5;
+padding: 2%;
+}
+
+.exhibitions {
+padding: 2%;
+}
+
+.performance {
+background-color: #c3f1e5;
+padding: 2%;
+}
+
+.curatorial{
+padding: 2%;
+}
+
+.experience {
+background-color: #c3f1e5;
+padding: 2%;
+}
+
+.awards {
+padding: 2%;;
+}
+
+.texts {
+background-color: #c3f1e5;
+padding: 2%;
+}
+
+h3 {
+font-family: "Courier New";
+font-size: 25px;
+padding: 7px;
+}
+
+h3.organizers {
+font-size: 20px;
+}
+
+p {
+font-family: "Courier New";
+font-size: 14px;
+padding: 3px;
+}
+
+#title {
+font-family: "Courier New";
+font-size: 30px;
+padding: 2%;
+}
+.breadcrumb {
+  padding: 10px 0 0 10px;
+}
+.breadcrumb a {
+  color: #0000EE;
+  text-decoration: none;
+}
