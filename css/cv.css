@@ -42,7 +42,33 @@ input, select { vertical-align: middle; }
 /** end of css reset **/
 
 /** Begin CV page style **/
-
+/**************************
+TABLE styles
+***************************/
+td, th {
+    font-family: "Courier New";
+    font-size: 14px;
+    padding-left: 3px;
+}
+/* (first cell after year) */
+td:nth-child(2) {
+    padding-left: 30px;
+}
+/* year column in multi year table*/
+table.multi-year td:nth-child(odd) {
+    width: 80px;
+}
+tr:hover {
+    background: #ddd;
+    /*border-bottom: solid black 1px;*/
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+.show {
+    font-style: italic;
+}
 
 .education {
 background-color: #c3f1e5;
